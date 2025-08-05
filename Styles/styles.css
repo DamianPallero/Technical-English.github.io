@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Garamond, Old English Text MT;
+    background-color: #333;
+    color: #969696;
+}
+
+
+.front-page {
+    text-align: center;
+    padding: 20px;
+}
+
+.front-page img {
+    width: 100%;
+    max-width: 800px;
+    border: 5px solid #6d4d08;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.dictionary {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #c44684;
+    box-shadow: 0 4px 6px rgba(90, 41, 2, 0.1);
+    border:#6d4d08 2px solid;
+    border-radius: 10px;
+    color: #000000;
+}
+
+.dictionary h1 {
+    color: #000000;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    border:#6d4d08 2px solid;
+    padding: 10px;
+}
+
+.terms {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.terms li {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+.terms h2 {
+    color: #000000;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.terms p {
+    color: #000000;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+
+
+.sidebar {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: #333;
+    color: #fff;
+    width: 60px;
+    height: 80vh;
+    border-radius: 0 10px 10px 0;
+    box-shadow: 2px 0 8px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 0;
+    z-index: 1000;
+    overflow-y: auto;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar li {
+    margin: 6px 0;
+}
+
+.sidebar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 6px 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+    border-radius: 4px;
+    transition: background 0.2s, color 0.2s;
+}
+
+.sidebar a:hover {
+    background: #ffcc00;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: #6d4d08 2px solid;
+    background-color: aliceblue;
+    color: #000;
+}
+
+p {
+    margin: 20px 0;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #000;
+    border: #6d4d08 2px solid;
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+h1 {
+    color: #000000;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    border:#6d4d08 2px solid;
+    padding: 10px;
+    background-color: aliceblue;
+}
